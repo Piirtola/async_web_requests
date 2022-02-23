@@ -6,3 +6,7 @@ Contains a program that enables one to get data from multiple URLs. Handles erro
   
     - import async_web_requests
     - results = async_web_requests.main_loop(urls_list, output=bool)
+
+### Dependencies
+  - aiohttp
+  - asyncio
